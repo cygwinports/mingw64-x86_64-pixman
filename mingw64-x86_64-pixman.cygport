@@ -1,5 +1,9 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="pixman"
+inherit cross xorg
+
 NAME="mingw64-x86_64-pixman"
-VERSION=0.26.2
+VERSION=0.28.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Low-level pixel manipulation library for Win32 toolchain"
@@ -7,8 +11,5 @@ DESCRIPTION="This package does NOT contain cygwin binaries.  Instead, it
 contains msvcrt-linked binaries (aka 'mingw').  It is for use with the
 mingw-gcc cross compiler, and installs into the
 /usr/x86_64-w64-mingw32/sys-root/mingw/{lib,include} directories."
-CROSS_HOST="x86_64-w64-mingw32"
-ORIG_PN="pixman"
-inherit cross xorg
 
 KEEP_LA_FILES="none"
