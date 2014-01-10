@@ -3,7 +3,7 @@ ORIG_PN="pixman"
 inherit cross xorg
 
 NAME="mingw64-x86_64-pixman"
-VERSION=0.32.2
+VERSION=0.32.4
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Low-level pixel manipulation library for Win64 toolchain"
